@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="covidTracker" title="#covidTracker" src="./assets/img1.png" width="800px"/>
+</h1>
 
-## Available Scripts
+## 💻 About project
 
-In the project directory, you can run:
+Personal project built using ReactJS, pure CSS with BEM methodology and Material-UI Framework. This is a Covid-19 tracker which you can access and viasualize useful data from cases, recovered cases and deaths about every country of our world, through disease.sh API. It has an interactive world map which you can explore (leaflet map) and make it easier for you to locate the countries who is facing big troubles against corona virus.
 
-### `yarn start`
+Demo: https://githubclonelmr.netlify.app/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Technology
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### **Website**
 
-### `yarn test`
+-   **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)**
+-   **[CSS3](https://www.w3schools.com/css/)**
+-   **[ReactJs](https://pt-br.reactjs.org/)**
+-   **[Material-UI](https://material-ui.com/pt/)**
+-   **[Leaftlet](https://leafletjs.com/)**
+-   **[Numeral.js](http://numeraljs.com/)**
+-   **[Chart.js](https://www.chartjs.org/)**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### **Utilitaries**
 
-### `yarn build`
+-   Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+-   API: **[Disease.sh](https://corona.lmao.ninja/)**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Before you begin, you will need to have the following tool installed on your machine:
+[Git](https://git-scm.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In addition, it is good to have an editor to work with the code as **[VSCode](https://code.visualstudio.com/)**
 
-### `yarn eject`
+### Running the web application (Front End)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone this repository
+$ git clone https://github.com/luizmr/covid19-tracker-app.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Access the project folder in the cmd/terminal
+$ cd covid19-tracker-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Use the command below to install all dependencies
+$ npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Run the application on terminal
+$ npm start
 
-## Learn More
+# The server is now running at localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under the MIT license.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ❤️ by Luiz Marcelo Rocha

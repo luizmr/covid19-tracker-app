@@ -6,7 +6,7 @@
 
 Personal project built using ReactJS, pure CSS with BEM methodology and Material-UI Framework. This is a Covid-19 tracker which you can access and viasualize useful data from cases, recovered cases and deaths about every country of our world, through disease.sh API. It has an interactive world map which you can explore (leaflet map) and make it easier for you to locate the countries who is facing big troubles against corona virus.
 
-Demo: https://githubclonelmr.netlify.app/
+Demo: https://covidtrackerlmr.netlify.app/
 
 ## 🛠 Technology
 
